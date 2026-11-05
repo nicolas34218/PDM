@@ -12,9 +12,6 @@ export default function WelcomeScreen({ navigation }: Props) {
             <View style={styles.logoPlaceholder}>
                 <Text style={styles.logoText}>pdmproj</Text>
             </View>
-            <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('Login')}>
-                <Text style={styles.buttonText}>Começar</Text>
-            </TouchableOpacity>
         </View>
     );
 }

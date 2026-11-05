@@ -21,10 +21,7 @@ export type WelcomeScreenNavigationProp = NativeStackNavigationProp<
     RootStackParamList,
     "Welcome"
 >;
-export type LoginScreenNavigationProp = NativeStackNavigationProp<
-    RootStackParamList,
-    "Login"
->;
+
 export type HomeScreenNavigationProp = NativeStackNavigationProp<
     RootStackParamList,
     "MainApp"
