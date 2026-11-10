@@ -10,14 +10,13 @@
       "supportsTablet": true
     },
     "android": {
-      "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
-      },
-      "predictiveBackGestureEnabled": false
-    },
+  "adaptiveIcon": {
+    "foregroundImage": "./assets/android-icon-foreground.png",
+    "backgroundImage": "./assets/android-icon-background.png",
+    "monochromeImage": "./assets/android-icon-monochrome.png",
+    "backgroundColor": "#ffffff"
+  }
+},
     "web": {
       "favicon": "./assets/favicon.png"
     }
